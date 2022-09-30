@@ -1,0 +1,42 @@
+.grid1 {
+  background-image: url("https://ychef.files.bbci.co.uk/1376x774/p07ztf1q.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: 1s;
+}
+
+.grid2 {
+  background-image: url("https://images.healthshots.com/healthshots/en/uploads/2022/03/20121414/fitness-woman-1600x900.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: 1s;
+}
+
+.grid3 {
+  background-image: url("https://m.economictimes.com/thumb/msid-85206159,width-1200,height-900,resizemode-4,imgsize-81692/fitness.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: 1s;
+}
+
+.grid1:hover {
+  width: 500px;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+
+.grid2:hover {
+    width: 500px;
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  
+.grid3:hover {
+    width: 500px;
+    transform: scale(1.2);
+    z-index: 1;
+  }
